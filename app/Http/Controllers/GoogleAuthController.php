@@ -29,6 +29,6 @@ class GoogleAuthController extends Controller
 
         
 
-        return redirect("http://localhost:5173/login?token=".$token."&name=".$user->name."&email=".$user->email."&id=".$user->id);
+        return redirect("https://magicsplit.onrender.com/login?token=".$token."&name=".$user->name."&email=".$user->email."&id=".$user->id);
     }
 }
